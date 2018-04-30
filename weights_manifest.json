@@ -1,0 +1,97 @@
+[
+    {
+        "paths": [
+            "group1-shard1of1"
+        ],
+        "weights": [
+            {
+                "name": "layer_1_conv/weight",
+                "shape": [
+                    6,
+                    6,
+                    1,
+                    6
+                ],
+                "dtype": "float32"
+            },
+            {
+                "name": "layer_1_conv/bias",
+                "shape": [
+                    6
+                ],
+                "dtype": "float32"
+            },
+            {
+                "name": "layer_2_conv/weight",
+                "shape": [
+                    5,
+                    5,
+                    6,
+                    12
+                ],
+                "dtype": "float32"
+            },
+            {
+                "name": "layer_2_conv/bias",
+                "shape": [
+                    12
+                ],
+                "dtype": "float32"
+            },
+            {
+                "name": "layer_3_conv/weight",
+                "shape": [
+                    4,
+                    4,
+                    12,
+                    24
+                ],
+                "dtype": "float32"
+            },
+            {
+                "name": "layer_3_conv/bias",
+                "shape": [
+                    24
+                ],
+                "dtype": "float32"
+            },
+            {
+                "name": "layer_3_conv/Reshape/shape",
+                "shape": [
+                    2
+                ],
+                "dtype": "int32"
+            },
+            {
+                "name": "layer_4_fc/weight",
+                "shape": [
+                    1176,
+                    200
+                ],
+                "dtype": "float32"
+            },
+            {
+                "name": "layer_4_fc/bias",
+                "shape": [
+                    200
+                ],
+                "dtype": "float32"
+            },
+            {
+                "name": "layer_5_fc/weight",
+                "shape": [
+                    200,
+                    10
+                ],
+                "dtype": "float32"
+            },
+            {
+                "name": "layer_5_fc/bias",
+                "shape": [
+                    10
+                ],
+                "dtype": "float32"
+            }
+        ]
+    }
+]

@@ -1,0 +1,6 @@
+node_modules/
+amfa.jpg
+web_model
+saved_model
+.cache
+dist
